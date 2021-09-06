@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PutMapping;
     decode404 = true,             // bean name.
     qualifiers = {},              // bean name.
     configuration = {},           // customizing configuration.
-    fallback = void.class,        // hystrix(서버가 오류응답을 보내는경우, 해당 API 서버로 요청을 보내지않고, 잠시동안 대체(fallback) method 를 실행.) fallback class.
+//    fallback = void.class,        // hystrix(서버가 오류응답을 보내는경우, 해당 API 서버로 요청을 보내지않고, 잠시동안 대체(fallback) method 를 실행.) fallback class.
     fallbackFactory = BookClientFallbackFactory.class  // hystrix fallback factory class.
 )
 public interface BookClient {

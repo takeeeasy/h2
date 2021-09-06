@@ -15,7 +15,8 @@ spring:
 #    loadbalancer:
 #      ribbon:
 #        enable: false
-feign:
-  hystrix:
-    enabled: true
+#feign:
+#  hystrix:
+#    enabled: true
+
 
